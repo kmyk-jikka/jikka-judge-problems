@@ -15,7 +15,7 @@ int main() {
     cin >> n;
 
     // solve
-    long long ans = 0;
+    long long ans = 1;
     REP (i, n) {
         ans *= i + 1;
         ans %= MOD;

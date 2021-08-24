@@ -5,7 +5,10 @@
 ## What is this?
 
 [Jikka Judge](https://judge.kimiyuki.net) is a small online judge to host problems which are used in development of [Jikka](https://github.com/kmyk/Jikka) interpreter.
-A small 
+
+## Contributing
+
+なんでも歓迎
 
 ## Special Thanks
 

@@ -1,0 +1,10 @@
+title = '\(\sum \sum \lvert x_i - x_j \rvert\)'
+timelimit = 2.0
+forum = '#'
+
+[[tests]]
+    name = "example.in"
+    number = 3
+[[tests]]
+    name = "random.cpp"
+    number = 10

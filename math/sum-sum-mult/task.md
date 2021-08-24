@@ -1,0 +1,34 @@
+## @{keyword.statement}
+
+``` python
+def solve(i: int, a: List[int], b: List[int]) -> int:
+    ans = 0
+    for i in range(n):
+        for j in range(n):
+            ans += abs(a[i] - a[j]) * abs(a[i] - a[j])
+    return ans
+```
+
+関連する問題: [yukicoder No.1649 Manhattan Square](https://yukicoder.me/problems/no/1649)
+
+## @{keyword.constraints}
+
+- $@{param.N_MIN} \leq N \leq @{param.N_MAX}$
+- $@{param.A_MIN} \leq a_i \leq @{param.A_MAX}$
+- $@{param.A_MIN} \leq b_j \leq @{param.A_MAX}$
+
+## @{keyword.input}
+
+```
+$N$ $M$
+$a_1$ $a_2$ $\ldots$ $a_N$
+$b_1$ $b_2$ $\ldots$ $b_N$
+```
+
+## @{keyword.sample}
+
+@{example.example_00}
+
+@{example.example_01}
+
+@{example.example_02}

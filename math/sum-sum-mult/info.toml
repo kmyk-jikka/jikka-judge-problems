@@ -1,0 +1,21 @@
+title = '\(\sum \sum \left( \lvert a_i - a_j \rvert \cdot \lvert b_i - b_j \rvert \right) \)'
+timelimit = 2.0
+forum = '#'
+
+[[tests]]
+    name = "example.in"
+    number = 4
+[[tests]]
+    name = "random.cpp"
+    number = 10
+
+[[solutions]]
+    name = "naive.cpp"
+    allow_tle = true
+
+[params]
+    N_MIN = 0
+    N_MAX = 1000000
+    A_MIN = -1000000000
+    A_MAX = 1000000000
+    MOD = 1000000007

@@ -71,7 +71,7 @@ matrix<T, N, N> matpow(matrix<T, N, N> x, int64_t k) {
     return y;
 }
 
-constexpr int MOD = 1000000007;
+constexpr int MOD = 998244353;
 
 int main() {
     // input

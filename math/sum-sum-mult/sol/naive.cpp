@@ -9,7 +9,7 @@
 #define ALL(x) std::begin(x), std::end(x)
 using namespace std;
 
-constexpr int MOD = 1000000007;
+constexpr int MOD = 998244353;
 
 int64_t solve(int n, vector<int64_t> a, vector<int64_t> b) {
     int64_t ans = 0;

@@ -12,4 +12,4 @@ forum = '#'
 [params]
     N_MIN = 0
     N_MAX = 10000000
-    MOD = 1000000007
+    MOD = 998244353

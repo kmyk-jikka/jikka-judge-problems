@@ -7,7 +7,7 @@
 #define ALL(x) std::begin(x), std::end(x)
 using namespace std;
 
-constexpr int MOD = 1000000007;
+constexpr int MOD = 998244353;
 
 int main() {
     // input

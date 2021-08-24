@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-constexpr int MOD = 1000000007;
+constexpr int MOD = 998244353;
 
 int main() {
     // input

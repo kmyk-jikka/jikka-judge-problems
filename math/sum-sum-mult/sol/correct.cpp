@@ -134,7 +134,7 @@ struct plus_monoid {
     value_type mult(value_type a, value_type b) const { return a + b; }
 };
 
-constexpr int MOD = 1000000007;
+constexpr int MOD = 998244353;
 
 mint<MOD> solve(int n, vector<int64_t> x, vector<int64_t> y) {
     vector<int> order_x(n);

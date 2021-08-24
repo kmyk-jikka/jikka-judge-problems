@@ -5,7 +5,7 @@ def solve(i: int, a: List[int], b: List[int]) -> int:
     ans = 0
     for i in range(n):
         for j in range(n):
-            ans += abs(a[i] - a[j]) * abs(a[i] - a[j])
+            ans += abs(a[i] - a[j]) * abs(b[i] - b[j])
     return ans
 ```
 

@@ -11,7 +11,7 @@ forum = '#'
 
 [[solutions]]
     name = "naive.cpp"
-    wrong = true
+    allow_tle = true
 
 [params]
     N_MIN = 0

@@ -1,0 +1,10 @@
+title = '\(n!\)'
+timelimit = 2.0
+forum = '#'
+
+[[tests]]
+    name = "example.in"
+    number = 12
+[[tests]]
+    name = "random.cpp"
+    number = 10

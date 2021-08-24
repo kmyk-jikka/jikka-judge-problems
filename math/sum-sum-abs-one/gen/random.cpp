@@ -15,8 +15,8 @@ int main(int, char* argv[]) {
     int n = gen.uniform(N_MIN, N_MAX);
     printf("%d\n", n);
     REP (i, n) {
-        int a = gen.uniform(N_MIN, N_MAX);
-        printf("%d%c", a, i + 1 < n ? ' ' : '\n');
+        int x = gen.uniform(X_MIN, X_MAX);
+        printf("%d%c", x, i + 1 < n ? ' ' : '\n');
     }
     if (n == 0) {
         printf("\n");

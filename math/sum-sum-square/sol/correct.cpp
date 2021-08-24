@@ -17,7 +17,7 @@ int64_t solve(int n, vector<int64_t> a) {
     for (int64_t a_i : a) {
         ans += 2 * n * a_i % MOD * a_i % MOD;
     }
-    int64_t sum_a = accumulate(ALL(a), 0ll);
+    int64_t sum_a = accumulate(ALL(a), 0ll) % MOD;
     ans -= 2 * sum_a * sum_a % MOD;
     return (ans % MOD + MOD) % MOD;
 }

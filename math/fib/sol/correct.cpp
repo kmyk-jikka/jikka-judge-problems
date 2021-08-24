@@ -81,7 +81,7 @@ int main() {
     // solve
     matrix<mint<MOD>, 2, 2> f = {{
         {{1, 1}},
-        {{0, 1}},
+        {{1, 0}},
     }};
     array<mint<MOD>, 2> x = {{
         1, 0

@@ -1,0 +1,21 @@
+title = '\(\sum \sum (x_i - x_j)^2 \)'
+timelimit = 2.0
+forum = '#'
+
+[[tests]]
+    name = "example.in"
+    number = 4
+[[tests]]
+    name = "random.cpp"
+    number = 10
+
+[[solutions]]
+    name = "naive.cpp"
+    wrong = true
+
+[params]
+    N_MIN = 0
+    N_MAX = 1000000
+    X_MIN = -1000000000
+    X_MAX = 1000000000
+    MOD = 1000000007

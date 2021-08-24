@@ -5,13 +5,13 @@ def solve(a: int, b: int, n: int) -> int:
     y = 0
     for x in range(n):
         y += a * x + b
-    return y % 1000000007
+    return y % @{param.MOD}
 ```
 
 ## @{keyword.constraints}
 
-- $-10^9 \leq a, b \leq 10^9$
-- $0 \leq n \leq 10^{18}$
+- $@{param.A_MIN} \leq a, b \leq {param.A_MAX}$
+- $@{param.N_MIN} \leq n \leq @{param.N_MAX}$
 
 ## @{keyword.input}
 

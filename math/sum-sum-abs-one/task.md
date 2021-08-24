@@ -11,8 +11,8 @@ def solve(x: List[int]) -> int:
 
 ## @{keyword.constraints}
 
-- $0 \leq N \leq 10^5$
-- $-10^8 \leq x_i \lt 10^8$
+- $@{param.N_MIN} \leq N \leq @{param.N_MAX}$
+- $@{param.X_MIN} \leq x_i \leq @{param.X_MAX}$
 
 ## @{keyword.input}
 

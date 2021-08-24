@@ -11,10 +11,10 @@ def solve(a: List[int], b: List[int]) -> int:
 
 ## @{keyword.constraints}
 
-- $0 \leq N \leq 10^5$
-- $0 \leq M \leq 10^5$
-- $-10^8 \leq a_i \lt 10^8$
-- $-10^8 \leq b_j \lt 10^8$
+- $@{param.N_MIN} \leq N \leq @{param.N_MAX}$
+- $@{param.N_MIN} \leq M \leq @{param.N_MAX}$
+- $@{param.A_MIN} \leq a_i \leq @{param.A_MAX}$
+- $@{param.A_MIN} \leq b_j \leq @{param.A_MAX}$
 
 ## @{keyword.input}
 

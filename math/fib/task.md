@@ -5,12 +5,12 @@ def fib(n: int) -> int:
     if n <= 1:
         return n
     else:
-        return (fib(n - 2) + fib(n - 1)) % 1000000007
+        return (fib(n - 2) + fib(n - 1)) % @{param.MOD}
 ```
 
 ## @{keyword.constraints}
 
-- $0 \leq n \leq 10^{18}$
+- $@{param.N_MIN} \leq n \leq @{param.N_MAX}$
 
 ## @{keyword.input}
 

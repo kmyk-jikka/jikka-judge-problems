@@ -1,10 +1,11 @@
 #include <iostream>
 #include "testlib.h"
+#include "params.h"
 
 int main() {
     registerValidation();
 
-    inf.readInt(0, 10000000);
+    inf.readLong(N_MIN, N_MAX);
     inf.readChar('\n');
     inf.readEof();
     return 0;

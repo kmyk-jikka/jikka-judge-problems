@@ -8,3 +8,9 @@ forum = '#'
 [[tests]]
     name = "random.cpp"
     number = 10
+
+[params]
+    N_MIN = 0
+    N_MAX = 100000
+    A_MIN = -100000000
+    A_MAX = 100000000

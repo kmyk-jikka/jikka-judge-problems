@@ -5,12 +5,12 @@ def fact(n: int) -> int:
     if n == 0:
         return 1
     else:
-        return n * fact(n - 1) % 1000000007
+        return n * fact(n - 1) % @{param.MOD}
 ```
 
 ## @{keyword.constraints}
 
-- $0 \leq n \leq 10^{7}$
+- $@{param.N_MAX} \leq n \leq @{param.N_MIN}$
 
 ## @{keyword.input}
 

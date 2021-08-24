@@ -6,7 +6,7 @@ def solve(a: List[int]) -> int:
     for a_i in a:
         for a_j in a:
             ans += (a_i - a_j) ** 2
-    return ans % @{param.MOD}
+    return ans % 998244353
 ```
 
 ## @{keyword.constraints}

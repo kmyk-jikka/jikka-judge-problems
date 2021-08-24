@@ -1,18 +1,18 @@
 ## @{keyword.statement}
 
 ``` python
-def solve(x: List[int]) -> int:
+def solve(a: List[int]) -> int:
     ans = 0
-    for x_i in x:
-        for x_j in x:
-            ans += (x_i - x_j) ** 2
+    for a_i in a:
+        for a_j in a:
+            ans += (a_i - a_j) ** 2
     return ans % @{param.MOD}
 ```
 
 ## @{keyword.constraints}
 
 - $@{param.N_MIN} \leq N \leq @{param.N_MAX}$
-- $@{param.X_MIN} \leq x_i \leq @{param.X_MAX}$
+- $@{param.X_MIN} \leq a_i \leq @{param.X_MAX}$
 
 ## @{keyword.input}
 

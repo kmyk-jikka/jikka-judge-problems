@@ -17,7 +17,7 @@ int main() {
     // solve
     long long ans = 0;
     REP (i, n) {
-        ans += i + 1;
+        ans *= i + 1;
         ans %= MOD;
     }
 

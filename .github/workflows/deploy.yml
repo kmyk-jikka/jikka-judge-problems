@@ -31,13 +31,14 @@ jobs:
         run: |
           ulimit -s unlimited
           PYTHONPATH=. ./library-checker-judge/deploy/problems_deploy.py . \
-            --host=judge.kimiyuki.net --prod \
+            --host=$API_HOST --prod \
             --api-pass $API_PASS \
             --minio-host $MINIO_HOST \
             --minio-access $MINIO_ACCESS_KEY \
             --minio-secret $MINIO_SECRET_KEY \
             --minio-bucket $MINIO_BUCKET
         env:
+          API_HOST: ${{ secrets.API_HOST }}
           API_PASS: ${{ secrets.API_PASS }}
           MINIO_HOST: ${{ secrets.MINIO_HOST }}
           MINIO_ACCESS_KEY: ${{ secrets.MINIO_ACCESS_KEY }}

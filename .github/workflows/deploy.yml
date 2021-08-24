@@ -31,7 +31,7 @@ jobs:
         run: |
           ulimit -s unlimited
           PYTHONPATH=. ./library-checker-judge/deploy/problems_deploy.py . \
-            --host=apiv1.yosupo.jp --prod \
+            --host=judge.kimiyuki.net --prod \
             --api-pass $API_PASS \
             --minio-host $MINIO_HOST \
             --minio-access $MINIO_ACCESS_KEY \

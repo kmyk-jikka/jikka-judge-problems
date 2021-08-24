@@ -15,5 +15,5 @@
 This online judge is powered by [Library Checker](https://judge.yosupo.jp/).
 
 -   problems: [library-checker-problems](https://github.com/yosupo06/library-checker-problems)
--   judge: [library-checker-judge]([200~https://github.com/yosupo06/library-checker-judge)
+-   judge: [library-checker-judge](https://github.com/yosupo06/library-checker-judge)
 -   frontend: [library-checker-frontend](https://github.com/yosupo06/library-checker-frontend)

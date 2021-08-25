@@ -18,7 +18,7 @@ def solve(n: int) -> int:
     if n <= 1:
         return n
     else:
-        return (fib(n - 2) + fib(n - 1)) % 998244353
+        return (fib(n - 2) + solve(n - 1)) % 998244353
 ```
 
 ## @{keyword.constraints}

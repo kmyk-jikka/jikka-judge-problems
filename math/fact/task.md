@@ -5,7 +5,7 @@ def solve(n: int) -> int:
     if n == 0:
         return 1
     else:
-        return n * fact(n - 1) % 998244353
+        return n * solve(n - 1) % 998244353
 ```
 
 ## @{keyword.constraints}

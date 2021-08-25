@@ -1,7 +1,7 @@
 ## @{keyword.statement}
 
 ``` python
-def fib(n: int) -> int:
+def solve(n: int) -> int:
     a = 0
     b = 1
     for _ in range(n):
@@ -14,7 +14,7 @@ def fib(n: int) -> int:
 or
 
 ``` python
-def fib(n: int) -> int:
+def solve(n: int) -> int:
     if n <= 1:
         return n
     else:

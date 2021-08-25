@@ -1,0 +1,20 @@
+title = '\(\mathrm{dp}(i) = \min _ {j \lt i} \left( \mathrm{dp}(j) + (a_i - a_j)^2 \right)\)'
+timelimit = 2.0
+forum = '#'
+
+[[tests]]
+    name = "example.in"
+    number = 3
+[[tests]]
+    name = "random.cpp"
+    number = 10
+
+[[solutions]]
+    name = "naive.cpp"
+    allow_tle = true
+
+[params]
+    N_MIN = 1
+    N_MAX = 200000
+    A_MIN = -1000000
+    A_MAX = 1000000

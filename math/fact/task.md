@@ -10,7 +10,7 @@ def solve(n: int) -> int:
 
 ## @{keyword.constraints}
 
-- $@{param.N_MAX} \leq n \leq @{param.N_MIN}$
+- $@{param.N_MIN} \leq n \leq @{param.N_MAX}$
 - $\mathrm{MOD} = @{param.MOD}$
 
 ## @{keyword.input}

@@ -11,16 +11,6 @@ def solve(n: int) -> int:
     return a % 998244353
 ```
 
-or
-
-``` python
-def solve(n: int) -> int:
-    if n <= 1:
-        return n
-    else:
-        return (fib(n - 2) + solve(n - 1)) % 998244353
-```
-
 ## @{keyword.constraints}
 
 - $@{param.N_MIN} \leq n \leq @{param.N_MAX}$

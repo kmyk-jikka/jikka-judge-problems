@@ -2,15 +2,29 @@
 
 ``` python
 def fib(n: int) -> int:
+    a = 0
+    b = 1
+    for _ in range(n):
+        c = a + b
+        a = b
+        b = c
+    return a % 998244353
+```
+
+or
+
+``` python
+def fib(n: int) -> int:
     if n <= 1:
         return n
     else:
-        return (fib(n - 2) + fib(n - 1)) % @{param.MOD}
+        return (fib(n - 2) + fib(n - 1)) % 998244353
 ```
 
 ## @{keyword.constraints}
 
 - $@{param.N_MIN} \leq n \leq @{param.N_MAX}$
+- $\mathrm{MOD} = @{param.MOD}$
 
 ## @{keyword.input}
 

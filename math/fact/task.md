@@ -5,12 +5,13 @@ def fact(n: int) -> int:
     if n == 0:
         return 1
     else:
-        return n * fact(n - 1) % @{param.MOD}
+        return n * fact(n - 1) % 998244353
 ```
 
 ## @{keyword.constraints}
 
 - $@{param.N_MAX} \leq n \leq @{param.N_MIN}$
+- $\mathrm{MOD} = @{param.MOD}$
 
 ## @{keyword.input}
 

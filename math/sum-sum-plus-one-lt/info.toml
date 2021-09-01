@@ -1,4 +1,4 @@
-title = '\(\sum_i \sum _ {i \lt j} \left( a_i - a_j \right)\)'
+title = '\(\sum_i \sum _ {j \gt i} \left( a_i - a_j \right)\)'
 timelimit = 2.0
 forum = '#'
 

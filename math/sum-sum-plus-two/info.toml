@@ -1,0 +1,20 @@
+title = '\(\sum \sum \left( a_i - b_j \right)\)'
+timelimit = 2.0
+forum = '#'
+
+[[tests]]
+    name = "example.in"
+    number = 3
+[[tests]]
+    name = "random.cpp"
+    number = 10
+
+[[solutions]]
+    name = "naive.cpp"
+    allow_tle = true
+
+[params]
+    N_MIN = 0
+    N_MAX = 100000
+    A_MIN = -100000000
+    A_MAX = 100000000

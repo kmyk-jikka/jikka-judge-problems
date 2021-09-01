@@ -1,0 +1,22 @@
+title = 'count subsequences which match with a regular expression /(re)+g(exp?|ular*e?xp(res*ion)?)/'
+timelimit = 2.0
+forum = '#'
+
+[[tests]]
+    name = "example.in"
+    number = 4
+[[tests]]
+    name = "small.cpp"
+    number = 10
+[[tests]]
+    name = "random.cpp"
+    number = 10
+
+[[solutions]]
+    name = "naive.cpp"
+    allow_tle = true
+
+[params]
+    LEN_S_MIN = 1
+    LEN_S_MAX = 1000000
+    MOD = 998244353

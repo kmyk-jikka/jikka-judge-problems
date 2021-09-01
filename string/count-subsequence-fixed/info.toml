@@ -1,0 +1,15 @@
+title = 'count subsequences which equal to "fixed"'
+timelimit = 2.0
+forum = '#'
+
+[[tests]]
+    name = "example.in"
+    number = 4
+[[tests]]
+    name = "random.cpp"
+    number = 10
+
+[params]
+    LEN_S_MIN = 1
+    LEN_S_MAX = 1000000
+    MOD = 998244353

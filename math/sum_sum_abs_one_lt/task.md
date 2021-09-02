@@ -10,6 +10,8 @@ def solve(a: List[int]) -> int:
     return ans
 ```
 
+This problem is almost the same to [AtCoder Beginner Contest 186: D - Sum of difference](https://atcoder.jp/contests/abc186/tasks/abc186_d).
+
 ## @{keyword.constraints}
 
 - $@{param.N_MIN} \leq N \leq @{param.N_MAX}$

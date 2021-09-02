@@ -2,10 +2,11 @@
 
 ``` python
 def solve(a: List[int]) -> int:
+    n = len(a)
     ans = 0
-    for a_i in a:
-        for a_j in a:
-            ans += abs(a_i - a_j)
+    for i in range(n):
+        for j in range(i + 1, n):
+            ans += abs(a[i] - a[j])
     return ans
 ```
 

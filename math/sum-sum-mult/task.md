@@ -1,28 +1,25 @@
 ## @{keyword.statement}
 
 ``` python
-def solve(i: int, a: List[int], b: List[int]) -> int:
+def solve(a: List[int]) -> int:
     ans = 0
-    for i in range(n):
-        for j in range(n):
-            ans += abs(a[i] - a[j]) * abs(b[i] - b[j])
-    return ans
+    for a_i in a:
+        for a_j in a:
+            ans += a_i * a_j
+    return ans % 998244353
 ```
-
-関連する問題: [yukicoder No.1649 Manhattan Square](https://yukicoder.me/problems/no/1649)
 
 ## @{keyword.constraints}
 
 - $@{param.N_MIN} \leq N \leq @{param.N_MAX}$
-- $@{param.A_MIN} \leq a_i \leq @{param.A_MAX}$
-- $@{param.A_MIN} \leq b_j \leq @{param.A_MAX}$
+- $@{param.X_MIN} \leq a_i \leq @{param.X_MAX}$
+- $\mathrm{MOD} = @{param.MOD}$
 
 ## @{keyword.input}
 
 ```
-$N$ $M$
+$N$
 $a_1$ $a_2$ $\ldots$ $a_N$
-$b_1$ $b_2$ $\ldots$ $b_N$
 ```
 
 ## @{keyword.sample}
@@ -32,5 +29,3 @@ $b_1$ $b_2$ $\ldots$ $b_N$
 @{example.example_01}
 
 @{example.example_02}
-
-@{example.example_03}

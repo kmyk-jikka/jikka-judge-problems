@@ -1,6 +1,5 @@
 #include <algorithm>
 #include <cstdint>
-#include <numeric>
 #include <iostream>
 #include <vector>
 #define REP(i, n) for (int i = 0; (i) < (int)(n); ++ (i))
@@ -12,10 +11,15 @@ using namespace std;
 
 constexpr int MOD = 998244353;
 
-int64_t solve(const vector<int64_t> &a) {
-    int64_t sum_a = accumulate(ALL(a), 0ll);
-    sum_a %= MOD;
-    return (sum_a * sum_a % MOD + MOD) % MOD;
+int64_t solve(int n, vector<int64_t> a, vector<int64_t> b) {
+    int64_t ans = 0;
+    REP (i, n) {
+        REP (j, n) {
+            ans += abs(a[i] - a[j]) % MOD * (abs(b[i] - b[j]) % MOD) % MOD;
+        }
+        ans %= MOD;
+    }
+    return (ans % MOD + MOD) % MOD;
 }
 
 int main() {
@@ -25,6 +29,10 @@ int main() {
     REP (i, n) {
         cin >> a[i];
     }
-    cout << solve(a) << endl;
+    vector<int64_t> b(n);
+    REP (j, n) {
+        cin >> b[j];
+    }
+    cout << solve(n, a, b) << endl;
     return 0;
 }

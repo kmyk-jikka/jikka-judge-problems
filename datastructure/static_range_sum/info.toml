@@ -1,4 +1,4 @@
-title = '\(\mathrm{ans} _ i = \sum _ {j \in \lbrack l_i, r_i)} a_j\) (Library Checker, Static Range Sum)'
+title = '\(\mathrm{ans} _ i = \sum _ {j \in \lbrack l_i, r_i)} a_j\) (Library Checker)'
 timelimit = 2.0
 forum = "#"
 

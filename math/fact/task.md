@@ -9,7 +9,7 @@ def solve(n: int) -> int:
 
 
 def main() -> None:
-    n = map(int, input().split())
+    n = int(input())
     ans = solve(n)
     print(ans)
 

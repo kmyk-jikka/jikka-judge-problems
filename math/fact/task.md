@@ -6,6 +6,16 @@ def solve(n: int) -> int:
         return 1
     else:
         return n * solve(n - 1) % 998244353
+
+
+def main() -> None:
+    n = map(int, input().split())
+    ans = solve(n)
+    print(ans)
+
+
+if __name__ == "__main__":
+    main()
 ```
 
 ## @{keyword.constraints}

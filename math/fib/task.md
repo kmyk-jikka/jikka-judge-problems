@@ -9,6 +9,16 @@ def solve(n: int) -> int:
         a = b
         b = c
     return a % 998244353
+
+
+def main() -> None:
+    n = map(int, input().split())
+    ans = solve(n)
+    print(ans)
+
+
+if __name__ == "__main__":
+    main()
 ```
 
 ## @{keyword.constraints}

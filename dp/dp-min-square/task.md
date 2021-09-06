@@ -1,7 +1,10 @@
 ## @{keyword.statement}
 
 ``` python
+from typing import *
+
 INF = 10 ** 18
+
 
 def solve(a: List[int]) -> int:
     n = len(a)
@@ -11,12 +14,27 @@ def solve(a: List[int]) -> int:
         for j in range(i):
             dp[i] = min(dp[i], dp[j] + (a[i] - a[j]) ** 2)
     return dp[n - 1]
+
+
+def main() -> None:
+    n = int(input())
+    a = list(map(int, input().split()))
+    assert len(a) == n
+    ans = solve(a)
+    print(ans)
+
+
+if __name__ == "__main__":
+    main()
 ```
 
 or
 
 ``` python
+from typing import *
+
 INF = 10 ** 18
+
 
 def solve(a: List[int]) -> int:
     n = len(a)
@@ -26,6 +44,18 @@ def solve(a: List[int]) -> int:
         for i in range(j + 1, n):
             dp[i] = min(dp[i], dp[j] + (a[i] - a[j]) ** 2)
     return dp[n - 1]
+
+
+def main() -> None:
+    n = int(input())
+    a = list(map(int, input().split()))
+    assert len(a) == n
+    ans = solve(a)
+    print(ans)
+
+
+if __name__ == "__main__":
+    main()
 ```
 
 関連する問題: [Educational DP Contest / DP まとめコンテスト: Z - Frog 3](https://atcoder.jp/contests/dp/tasks/dp_z)

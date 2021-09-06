@@ -4,13 +4,24 @@
 import itertools
 import re
 
-def solve(s: str, k: int) -> int:
+
+def solve(s: str) -> int:
     ans = 0
     for xs in itertools.product(range(2), len(s)):
         t = ''.join([s[x] for x in xs])
         if re.search(r'(re)+g(exp?|ular*e?xp(res*ion)?)', t):
             ans += 1
     return ans % 998244353
+
+
+def main() -> None:
+    s = input()
+    ans = solve(s)
+    print(ans)
+
+
+if __name__ == "__main__":
+    main()
 ```
 
 ## @{keyword.constraints}

@@ -1,12 +1,29 @@
 ## @{keyword.statement}
 
 ``` python
-def solve(i: int, a: List[int], b: List[int]) -> int:
+from typing import *
+
+
+def solve(a: List[int], b: List[int]) -> int:
     ans = 0
     for i in range(n):
         for j in range(n):
             ans += abs(a[i] - a[j]) * abs(b[i] - b[j])
     return ans
+
+
+def main() -> None:
+    n, m = map(int, input().split())
+    a = list(map(int, input().split()))
+    assert len(a) == n
+    b = list(map(int, input().split()))
+    assert len(b) == m
+    ans = solve(a, b)
+    print(ans)
+
+
+if __name__ == "__main__":
+    main()
 ```
 
 関連する問題: [yukicoder No.1649 Manhattan Square](https://yukicoder.me/problems/no/1649)

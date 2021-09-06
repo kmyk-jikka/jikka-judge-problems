@@ -1,7 +1,10 @@
 ## @{keyword.statement}
 
 ``` python
+from typing import *
+
 INF = 10 ** 18
+
 
 def solve(n: int, a: List[int], b: List[int]) -> int:
     n = len(a)
@@ -12,6 +15,7 @@ def solve(n: int, a: List[int], b: List[int]) -> int:
             dp[i] = min(dp[i], dp[j] + a[j] * b[i])
     return dp[n - 1]
 
+
 def main() -> None:
     n = int(input())
     a = list(map(int, input().split()))
@@ -20,6 +24,7 @@ def main() -> None:
     assert len(b) == n
     ans = solve(n, a, b)
     print(ans)
+
 
 if __name__ == "__main__":
     main()

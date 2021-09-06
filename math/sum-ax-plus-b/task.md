@@ -6,6 +6,16 @@ def solve(a: int, b: int, n: int) -> int:
     for x in range(n):
         y += a * x + b
     return y % 998244353
+
+
+def main() -> None:
+    a, b, n = map(int, input().split())
+    ans = solve(a, b, n)
+    print(ans)
+
+
+if __name__ == "__main__":
+    main()
 ```
 
 ## @{keyword.constraints}

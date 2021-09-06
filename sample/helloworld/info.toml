@@ -1,0 +1,7 @@
+title = 'Hello, world!'
+timelimit = 2.0
+forum = "#"
+
+[[tests]]
+    name = "example.in"
+    number = 1

@@ -1,7 +1,7 @@
 ## @{keyword.statement}
 
 <script>
-location.href = "https://judge.yosupo.jp/problem/static_range_sum";
+window.location.href = "https://judge.yosupo.jp/problem/static_range_sum";
 </script>
 
 @{lang.en}
